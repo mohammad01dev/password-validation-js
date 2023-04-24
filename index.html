@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Validation</title>
+</head>
+<body>
+    <div class="password-box">
+        <div class="top-box">
+            <input type="password" class="passBox" placeholder="password" required />
+        </div>
+        <div class="validation-list">
+            <div class="validation">
+                <summary>Password Must Contains</summary>
+                <li class="len">At last 8 characters letter length</li>
+                <li class="upper">At last number contians(0...9)</li>
+                <li class="lower">At last lower case(a...z)</li>
+                <li class="special">At last upper case(A..Z)</li>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
